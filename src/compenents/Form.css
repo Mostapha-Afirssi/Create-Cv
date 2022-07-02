@@ -1,0 +1,154 @@
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+  }
+  
+  button{
+    width: 40%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin:  10px 30% ;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
+  h2{
+    text-align: center;
+ }
+
+  p{
+    margin-top: -10px;
+    margin-left: 80px;
+    font-size: 25px;
+ }
+ .test{
+  height:75px;
+ }
+ 
+.cv-diplay{
+  margin-top: 80px;
+}
+
+span{
+  border: 3px solid black;
+}
+
+.cv{
+  display: flex;
+  flex-direction: column; 
+  height: 1100px;
+  width: 800px;
+  border: solid 2px black;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.head {
+  display:flex;
+  background: rgb(147, 177, 221);
+  height: 80px;
+  flex: 1 1 auto;
+}
+
+.full-name{
+  flex: 2 1;
+}
+
+.image-place{
+  flex: 1 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  max-width:100%;
+max-height:100%;
+}
+
+.body{
+  display: flex;
+  height: 80px;
+  flex: 4 1 auto;
+}
+
+.experiences{
+  width: 0px;
+  flex: 2 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.experiences div{
+  padding-top: 30px;
+  flex: 1 1;
+}
+
+.practical,.educational b{
+  font-size: 23px;
+  padding-left: 20px;
+}
+
+.practical ul{
+  margin-left: 40px;
+  font-size: 20px;
+}
+
+.educational ul{
+  margin-left: 40px;
+  font-size: 20px;
+}
+
+/* p{
+  width: 100%;
+  height:41px;
+  margin: 8px 0px;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+} */
+
+
+.further-info{
+  width: 0px;
+  background-color: rgb(147, 177, 221);
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column; 
+}
+
+.additional{
+  flex: 3 1 auto;
+}
+.contact{
+  color: white;
+  flex: 1 1;
+  background-color: rgb(22, 25, 66);
+}
+
+li{
+  margin-top: 10px;
+}
+
+h1{
+  margin-left: 50px;
+  margin-top: 80px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  font-family:Arial;
+}
+
+
